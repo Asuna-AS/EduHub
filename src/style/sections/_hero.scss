@@ -93,13 +93,20 @@
 }
 
 .nav div.logo a {
+    margin-left: 0%;
     text-decoration: none;
-    color: #fff;
-    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    padding-top: 10rem;
+}
+
+.nav div.logo img {
+    margin-left: 0%;
+    padding-top: 20px;
 }
 
 .nav div.logo a:hover {
-    color: #9d00e6;
+    color: #1bc09a;
 }
 
 .nav div.main_list {
