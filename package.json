@@ -1,7 +1,6 @@
 {
     "name": "simplefolio",
     "version": "1.0.1",
-
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server --config webpack.dev.js --open",
