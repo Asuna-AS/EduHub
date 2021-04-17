@@ -1,7 +1,4 @@
 #about {
-    .container {
-        font-
-    }
     background-color: $secondary-color;
     background-image: linear-gradient( 135deg, $primary-color 0%, $secondary-color 100%);
     color: $white-color;
@@ -20,6 +17,7 @@
             padding-bottom: 5rem;
         }
         &__image {
+            font-size: 3em;
             display: flex;
             height: 100%;
             align-items: center;
@@ -33,6 +31,7 @@
         }
         &__info {
             display: flex;
+            font-size: 3em;
             height: 100%;
             justify-content: center;
             flex-direction: column;
@@ -54,6 +53,7 @@
                     padding: 0 0.3rem;
                     margin: 0.3rem 0;
                     line-height: 1.6;
+                    font-size: 3em;
                     @include respond(phone) {
                         display: inline;
                         margin: 0;
